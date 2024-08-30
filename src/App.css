@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.first, .second, .third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.first {
+  height: 5%;
+  background-color: lightgray; 
+}
+
+.second {
+  height: 10%;
+  background-color: lightcyan; 
+}
+
+.third {
+  height: 85%;
+  background-color: lightyellow; 
+}
